@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вхід - AirlineManager</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="login-page">
+    <main class="login-container">
+      <form class="login-form">
+        <h2>Вхід у систему</h2>
+
+        <div class="form-group">
+          <label for="username">Логін:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+            placeholder="Введіть логін"
+            class="form-input"
+          />
+          <span class="error-message">Це поле є обов'язковим</span>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Пароль:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Введіть пароль"
+            class="form-input"
+          />
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-submit">Ok</button>
+          <a href="index.html" class="btn-link">Скасувати</a>
+        </div>
+      </form>
+    </main>
+    <footer class="main-footer">
+      <p>&copy; 2026 Bayraktar Air System. Всі права захищено.</p>
+    </footer>
+  </body>
+</html>
