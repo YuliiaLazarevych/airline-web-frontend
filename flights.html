@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Табло рейсів - Bayraktar Air</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="index.html" class="logo">Bayraktar Air</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="flights.html" class="active">Рейси</a></li>
+          <li><a href="analytics.html">Аналітика</a></li>
+          <li><a href="users.html">Персонал</a></li>
+          <li><a href="login.html">Вихід</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="flights-board">
+        <h1>Онлайн-табло вильотів</h1>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Рейс</th>
+              <th>Напрямок</th>
+              <th>Час вильоту</th>
+              <th>Статус</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>BA-102</strong></td>
+              <td>Львів — Варшава</td>
+              <td>14:20</td>
+              <td><span class="status status-on-time">Вчасно</span></td>
+            </tr>
+            <tr>
+              <td><strong>BA-205</strong></td>
+              <td>Київ — Брюссель</td>
+              <td>16:45</td>
+              <td><span class="status status-delayed">Затримується</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <p>&copy; 2026 Bayraktar Air System. Всі права захищено.</p>
+    </footer>
+  </body>
+</html>

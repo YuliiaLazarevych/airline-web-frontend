@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Персонал - Bayraktar Air</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="index.html" class="logo">Bayraktar Air</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="flights.html">Рейси</a></li>
+          <li><a href="analytics.html">Аналітика</a></li>
+          <li><a href="users.html" class="active">Персонал</a></li>
+          <li><a href="login.html">Вихід</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="user-list-section">
+        <h1>Керування персоналом авіакомпанії</h1>
+
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Прізвище та Ім'я</th>
+              <th>Посада</th>
+              <th>Дії</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>Мельник Іван</td>
+              <td><strong>Admin</strong></td>
+              <td>
+                <a href="edit-user.html" class="link-edit">Редагувати</a>
+                <button class="btn-delete-text">Видалити</button>
+              </td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>Петренко Юлія</td>
+              <td><strong>Regular</strong></td>
+              <td>
+                <a href="edit-user.html" class="link-edit">Редагувати</a>
+                <button class="btn-delete-text">Видалити</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="actions-bar-bottom">
+          <button
+            class="btn-submit"
+            onclick="location.href = 'create-user.html'"
+          >
+            + Додати нового співробітника
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <p>&copy; 2026 Bayraktar Air System. Всі права захищено.</p>
+    </footer>
+  </body>
+</html>
