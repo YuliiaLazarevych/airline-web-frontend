@@ -14,11 +14,12 @@
     <main class="container">
       <section class="form-card">
         <h2>Реєстрація нового працівника</h2>
-        <form class="airline-form">
+        <form class="airline-form" id="create-user-form">
           <div class="form-group">
             <label>Логін (Username):</label>
             <input
               type="text"
+              id="username"
               class="form-input"
               required
               placeholder="Напр: pilot_777"
@@ -26,15 +27,20 @@
           </div>
           <div class="form-group">
             <label>Пароль:</label>
-            <input type="password" class="form-input" required />
+            <input type="password" id="password" class="form-input" required />
           </div>
           <div class="form-group">
             <label>Підтвердіть пароль:</label>
-            <input type="password" class="form-input" required />
+            <input
+              type="password"
+              id="confirm-password"
+              class="form-input"
+              required
+            />
           </div>
           <div class="form-group">
             <label>Роль:</label>
-            <select class="form-input">
+            <select id="role" class="form-input">
               <option value="admin">Адміністратор (Диспетчер)</option>
               <option value="regular">Користувач (Пілот/Стюард)</option>
             </select>
@@ -55,5 +61,11 @@
     <footer class="main-footer">
       <p>&copy; 2026 Bayraktar Air System. Всі права захищено.</p>
     </footer>
+    <div
+      id="error-notification"
+      class="status status-delayed hidden"
+      style="margin-bottom: 15px"
+    ></div>
+    <script src="js/create-user.js"></script>
   </body>
 </html>

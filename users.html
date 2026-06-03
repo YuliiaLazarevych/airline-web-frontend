@@ -33,30 +33,12 @@
               <th>Дії</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>001</td>
-              <td>Мельник Іван</td>
-              <td><strong>Admin</strong></td>
-              <td>
-                <a href="edit-user.html" class="link-edit">Редагувати</a>
-                <button class="btn-delete-text">Видалити</button>
-              </td>
-            </tr>
-            <tr>
-              <td>002</td>
-              <td>Петренко Юлія</td>
-              <td><strong>Regular</strong></td>
-              <td>
-                <a href="edit-user.html" class="link-edit">Редагувати</a>
-                <button class="btn-delete-text">Видалити</button>
-              </td>
-            </tr>
-          </tbody>
+          <tbody id="users-table-body"></tbody>
         </table>
 
         <div class="actions-bar-bottom">
           <button
+            type="button"
             class="btn-submit"
             onclick="location.href = 'create-user.html'"
           >
@@ -68,5 +50,7 @@
     <footer class="main-footer">
       <p>&copy; 2026 Bayraktar Air System. Всі права захищено.</p>
     </footer>
+    <div id="error-notification" class="status status-delayed hidden"></div>
+    <script src="js/users.js"></script>
   </body>
 </html>

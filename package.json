@@ -1,0 +1,28 @@
+{
+  "name": "airline-web-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint js/**/*.js --ignore-pattern node_modules/",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliiaLazarevych/airline-web-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YuliiaLazarevych/airline-web-frontend/issues"
+  },
+  "homepage": "https://github.com/YuliiaLazarevych/airline-web-frontend#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "json-server": "^1.0.0-beta.15"
+  }
+}

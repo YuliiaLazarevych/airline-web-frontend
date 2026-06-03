@@ -1,0 +1,202 @@
+{
+  "flights": [
+    {
+      "id": "1",
+      "number": "BA-102",
+      "dest": "Львів — Варшава",
+      "time": "14:20",
+      "status": "delayed",
+      "statusText": "Затримується"
+    },
+    {
+      "id": "2",
+      "number": "BA-205",
+      "dest": "Київ — Брюссель",
+      "time": "16:45",
+      "status": "delayed",
+      "statusText": "Затримується"
+    },
+    {
+      "id": "3",
+      "number": "BA-301",
+      "dest": "Львів — Париж",
+      "time": "08:30",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "4",
+      "number": "BA-404",
+      "dest": "Київ — Берлін",
+      "time": "10:15",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "5",
+      "number": "BA-505",
+      "dest": "Львів — Прага",
+      "time": "12:00",
+      "status": "delayed",
+      "statusText": "Затримується"
+    },
+    {
+      "id": "6",
+      "number": "BA-607",
+      "dest": "Київ — Відень",
+      "time": "13:50",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "7",
+      "number": "BA-708",
+      "dest": "Львів — Рим",
+      "time": "15:10",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "8",
+      "number": "BA-809",
+      "dest": "Київ — Мадрид",
+      "time": "17:30",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "9",
+      "number": "BA-910",
+      "dest": "Львів — Мюнхен",
+      "time": "19:00",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "10",
+      "number": "BA-111",
+      "dest": "Київ — Амстердам",
+      "time": "21:15",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "11",
+      "number": "BA-222",
+      "dest": "Львів — Цюрих",
+      "time": "06:45",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "12",
+      "number": "BA-333",
+      "dest": "Київ — Лісабон",
+      "time": "22:50",
+      "status": "delayed",
+      "statusText": "Затримується"
+    },
+    {
+      "id": "13",
+      "number": "BA-444",
+      "dest": "Львів — Краків",
+      "time": "09:20",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "14",
+      "number": "BA-555",
+      "dest": "Київ — Осло",
+      "time": "11:40",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    },
+    {
+      "id": "15",
+      "number": "BA-666",
+      "dest": "Львів — Стокгольм",
+      "time": "14:55",
+      "status": "on-time",
+      "statusText": "Вчасно"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "Мельник Іван",
+      "role": "Pilot"
+    },
+    {
+      "id": "2",
+      "username": "Лазаревич Юлія",
+      "role": "Admin"
+    },
+    {
+      "id": "3",
+      "username": "Ковальчук Дмитро",
+      "role": "Pilot"
+    },
+    {
+      "id": "4",
+      "username": "Бондар Олена",
+      "role": "Stewardess"
+    },
+    {
+      "id": "5",
+      "username": "Шевченко Артем",
+      "role": "Engineer"
+    },
+    {
+      "id": "6",
+      "username": "Лисенко Марія",
+      "role": "Stewardess"
+    },
+    {
+      "id": "7",
+      "username": "Мороз Віктор",
+      "role": "Security"
+    },
+    {
+      "id": "8",
+      "username": "Павленко Ольга",
+      "role": "Manager"
+    },
+    {
+      "id": "9",
+      "username": "Кравченко Ігор",
+      "role": "Pilot"
+    },
+    {
+      "id": "10",
+      "username": "Ткаченко Світлана",
+      "role": "Stewardess"
+    },
+    {
+      "id": "11",
+      "username": "Коваленко Олег",
+      "role": "Ground Crew"
+    },
+    {
+      "id": "12",
+      "username": "Олійник Ганна",
+      "role": "Dispatcher"
+    },
+    {
+      "id": "13",
+      "username": "Савченко Андрій",
+      "role": "Technician"
+    },
+    {
+      "id": "14",
+      "username": "Поліщук Надія",
+      "role": "Manager"
+    },
+    {
+      "id": "15",
+      "username": "Волошин Сергій",
+      "role": "Security"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
