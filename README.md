@@ -1,20 +1,16 @@
-# Bayraktar Air - Airline Management System
+# React + Vite
 
-## Лабораторна робота №1: Статична верстка сторінок
-Проект розроблено в межах курсу з веб-технологій. Це статичний макет майбутнього SPA-додатку для керування авіакомпанією.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Технології:
-* **HTML5**: Семантична розмітка.
-* **SASS (SCSS)**: Модульна структура стилів, змінні, міксини.
-* **Git**: Версіонування та GitFlow (гілки lab1, development).
-* **AI Assistance**: Використано для дизайну та UX-оптимізації.
+Currently, two official plugins are available:
 
-### Реалізований функціонал:
-1. **Головна сторінка**: Опис компанії та переваги.
-2. **Аналітика**: Картки зі статистикою флоту та пасажирів.
-3. **Табло рейсів**: Перелік вильотів зі статусами.
-4. **Керування персоналом**: Список користувачів (Admin/Regular) з функціями додавання, редагування та видалення.
-5. **Авторизація**: Сторінка входу з валідацією полів.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### Посилання на проект:
-[Переглянути Bayraktar Air онлайн](https://yuliialazarevych.github.io/airline-web-frontend/index.html)
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
